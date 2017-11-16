@@ -1,0 +1,143 @@
+.logo {
+  background-color: black;
+  display: flex;
+}
+
+.logo h1 {
+  color: white;
+  margin-top: 2%;
+}
+
+.logo img {
+  margin: 1% 0.5% 1% 15%;
+  width:5%;
+  height: 5%;
+}
+
+.main-banner {
+  height: 100%;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  height: 25rem;
+}
+
+.banner-text {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+.banner-text h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+nav {
+  background-color: firebrick;
+  padding: 1.5%;
+  color: white;
+  display: flex;
+
+}
+
+.links {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.links span {
+  margin-right: 10%;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  margin-left: 5%;
+}
+
+.images img {
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid black;
+  margin-right: 2rem;
+  padding:1.5rem;
+}
+
+.pen-text {
+  background-color: black;
+  padding: 2.5rem;
+  width: 18.4rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.watch-text {
+  background-color: black;
+  padding: 2.5rem;
+  width: 18.4rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.glasses-text {
+  background-color: black;
+  padding: 2.5rem;
+  width: 18.4rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.pen span,
+.watch span,
+.glasses span {
+  color: white;
+}
+
+.container2{
+  display: flex;
+  padding: 5%;
+}
+
+.location {
+  background-color: black;
+  color: white;
+  padding: 2.5%;
+  width: 20%;
+  margin-left: 7%;
+}
+
+.coordenates {
+  flex-direction: column;
+}
+
+.hours {
+  background-color: black;
+  color: white;
+  padding: 2.5%;
+  width: 20%;
+  margin-left: 7%;
+}
+
+footer {
+  width: auto;
+  height: 100%;
+  background-color: black;
+  padding: 5%;
+}
+
+footer span {
+  color: white;
+}
