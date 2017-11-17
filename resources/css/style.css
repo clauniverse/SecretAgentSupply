@@ -67,6 +67,10 @@ nav {
   background-color: firebrick;
 }
 
+.mobile {
+  display: none;
+}
+
 .links {
   color: white;
   padding: 0.75rem 0;
@@ -144,4 +148,120 @@ footer {
 footer span {
   color: white;
   text-align: left
+}
+
+@media only screen and (max-width: 1024px){
+.links{
+  display: none;
+}
+.mobile {
+  display: flex;
+  background-color: firebrick;
+  color: white;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 4rem;
+  font-family: Helvetica;
+}
+}
+
+@media only screen and (max-width: 1024px){
+  .pen,
+  .watch {
+    max-width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .new-arrivals h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-family: Arial;
+  }
+
+  .new-arrivals h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    font-family: Arial;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
+@media only screen and (max-width: 470px){
+  .main-container {
+    background-image: url('../images/moto.jpeg');
+    height: 15rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .new-arrivals {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    top: 10rem;
+    color: white;
+  }
+
+  .new-arrivals h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: Helvetica;
+  }
+
+  .new-arrivals h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: Helvetica;
+  }
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .pen{
+    max-width: 90%;
+    margin-top: 10%;
+  }
+
+  .watch, .glasses {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-location,
+  .container-hours {
+    padding: 5%;
+    width:90%;
+    margin: 0 auto;
+  }
+
+  .copyright {
+    text-align: center;
+  }
 }
