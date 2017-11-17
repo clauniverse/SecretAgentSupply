@@ -1,0 +1,147 @@
+html {
+  font-size: 18px;
+}
+
+.body {
+  font-family: Helvetica;
+  max-width: 960px;
+}
+
+.logo {
+  background-color: black;
+  padding: 0.66rem 0;
+  display: flex;
+}
+
+.logo-text span{
+  color: white;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.logo-image img {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.main-container {
+  background-image: url('../images/moto.jpeg');
+  height: 25rem;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.new-arrivals {
+  position: relative;
+  width: 25rem;
+  height: auto;
+  background-color: black;
+  top: 9rem;
+  color: white;
+  margin-left: 2rem;
+  line-height: 2.5rem;
+}
+
+.new-arrivals h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-family: Helvetica;
+}
+
+.new-arrivals h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  font-family: Helvetica;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+.links {
+  color: white;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.links span {
+  margin-left: 4rem;
+  font-family: Helvetica;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  margin-left: 5%;
+}
+
+.images img {
+  width: 15rem;
+  height: 15rem;
+  border: 3px solid black;
+  margin-right: 2rem;
+  padding:1.5rem;
+}
+
+.pen-text,
+.watch-text,
+.glasses-text {
+  background-color: black;
+  padding: 2.5rem;
+  width: 13.35rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.pen span,
+.watch span,
+.glasses span {
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.container-location,
+.container-hours {
+  padding: 5%;
+  margin-left: 11%;
+  width:35%;
+}
+
+.location-block,
+.hours-block {
+  background-color: black;
+  color: white;
+  padding: 1.5rem;
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
+
+footer {
+  width: auto;
+  height: 5rem;
+  background-color: black;
+  padding: 5%;
+}
+
+footer span {
+  color: white;
+  text-align: left
+}
