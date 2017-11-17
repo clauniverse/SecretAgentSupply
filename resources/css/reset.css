@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-/* http://meyerweb.com/eric/tools/css/reset/
-=======
 /* http://meyerweb.com/eric/tools/css/reset/ 
->>>>>>> fc646b3607dfd35daaa8dbe4d724f667e81067b3
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -16,13 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-<<<<<<< HEAD
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-=======
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
->>>>>>> fc646b3607dfd35daaa8dbe4d724f667e81067b3
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -33,11 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-<<<<<<< HEAD
-article, aside, details, figcaption, figure,
-=======
 article, aside, details, figcaption, figure, 
->>>>>>> fc646b3607dfd35daaa8dbe4d724f667e81067b3
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -58,8 +45,4 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fc646b3607dfd35daaa8dbe4d724f667e81067b3
